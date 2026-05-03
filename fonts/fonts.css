@@ -1,0 +1,105 @@
+/* Font Face Declarations */
+
+/* Alverata Informal Bold */
+@font-face {
+  font-family: 'Alverata Informal Bold';
+  src: url('./AlverataInformalW01-Bold.woff2') format('woff2'),
+       url('./AlverataInformalW01-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* AlverataInformalBold (alias) */
+@font-face {
+  font-family: 'AlverataInformalBold';
+  src: url('./AlverataInformalW01-Bold.woff2') format('woff2'),
+       url('./AlverataInformalW01-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* AlverataInformalW01-Bold (fallback) */
+@font-face {
+  font-family: 'AlverataInformalW01-Bold';
+  src: url('./AlverataInformalW01-Bold.woff2') format('woff2'),
+       url('./AlverataInformalW01-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Galano Grotesque */
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('./GalanoGrotesque-Regular.woff2') format('woff2'),
+       url('./GalanoGrotesque-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* GalanoGrotesque (alias) */
+@font-face {
+  font-family: 'GalanoGrotesque';
+  src: url('./GalanoGrotesque-Regular.woff2') format('woff2'),
+       url('./GalanoGrotesque-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('./GalanoGrotesque-Medium.woff2') format('woff2'),
+       url('./GalanoGrotesque-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GalanoGrotesque';
+  src: url('./GalanoGrotesque-Medium.woff2') format('woff2'),
+       url('./GalanoGrotesque-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('./GalanoGrotesque-SemiBold.woff2') format('woff2'),
+       url('./GalanoGrotesque-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GalanoGrotesque';
+  src: url('./GalanoGrotesque-SemiBold.woff2') format('woff2'),
+       url('./GalanoGrotesque-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('./GalanoGrotesque-Bold.woff2') format('woff2'),
+       url('./GalanoGrotesque-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GalanoGrotesque';
+  src: url('./GalanoGrotesque-Bold.woff2') format('woff2'),
+       url('./GalanoGrotesque-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+} 

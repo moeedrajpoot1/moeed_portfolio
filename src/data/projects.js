@@ -1,0 +1,131 @@
+export const PROJECTS = [
+  {
+    id: 'aegis',
+    category: 'AI Agent',
+    year: '2025',
+    title: 'Aegis — Autonomous AI Agent',
+    desc: 'Multi-step planning loop with tool-calling, vector memory, and 12 external integrations.',
+    tags: ['Python', 'LangChain', 'OpenAI SDK', 'FastAPI'],
+    brief:
+      'Aegis is an autonomous AI agent that orchestrates multi step workflows using a tool calling architecture, built on a custom planning loop with persistent vector memory. Integrated with twelve external services and deployed in production.',
+  },
+  {
+    id: 'synthdocs',
+    category: 'RAG System',
+    year: '2025',
+    title: 'SynthDocs — RAG Engine',
+    desc: 'Hybrid vector + keyword search over millions of docs. Cited answers, sub-second latency.',
+    tags: ['Django', 'OpenAI SDK', 'pgvector', 'Redis'],
+    brief:
+      'SynthDocs is a retrieval augmented generation system that ingests millions of documents, builds a hybrid vector and keyword index, and serves cited answers with sub second latency at scale.',
+  },
+  {
+    id: 'forge',
+    category: 'MLOps',
+    year: '2024',
+    title: 'Forge — ML Deployment Platform',
+    desc: 'Automated training, eval, deploy, and monitor pipelines. Weeks to hours release cycles.',
+    tags: ['FastAPI', 'AWS', 'Docker', 'Terraform'],
+    brief:
+      'Forge is an end to end machine learning operations platform that automates training, evaluation, deployment, and monitoring across multiple environments. It reduces model release cycles from weeks to hours.',
+  },
+  {
+    id: 'chronotrade',
+    category: 'Data Platform',
+    year: '2024',
+    title: 'ChronoTrade — Market Intelligence',
+    desc: 'Live market data + ML signals for algorithmic trading. Real-time risk dashboards.',
+    tags: ['Django', 'Celery', 'Azure', 'PostgreSQL'],
+    brief:
+      'ChronoTrade is a high frequency analytics platform that processes live market data through machine learning models, generating predictive signals and risk reports for algorithmic trading systems.',
+  },
+  {
+    id: 'voxnet',
+    category: 'Voice AI',
+    year: '2024',
+    title: 'VoxNet — Real-Time Voice Assistant',
+    desc: 'Speech-to-speech assistant: transcription + LLM + synthesis under 400ms turnaround.',
+    tags: ['FastAPI', 'OpenAI SDK', 'WebSockets', 'AWS'],
+    brief:
+      'VoxNet is a real time speech to speech assistant that fuses transcription, large language model reasoning, and natural voice synthesis into a single low latency pipeline, with sub four hundred millisecond turnaround.',
+  },
+  {
+    id: 'sentinel',
+    category: 'Backend API',
+    year: '2023',
+    title: 'Sentinel — Multi-Tenant SaaS API',
+    desc: 'High-throughput Django API serving 50+ enterprise tenants with role-based access control.',
+    tags: ['Django', 'DRF', 'PostgreSQL', 'AWS'],
+    brief:
+      'Sentinel is a multi tenant SaaS backend built with Django, serving over fifty enterprise tenants with role based access control, high throughput APIs, and zero downtime deployments on A W S.',
+  },
+];
+
+export const SKILL_GROUPS = [
+  {
+    name: 'BACKEND',
+    items: [
+      'Python',
+      'Django',
+      'Django REST',
+      'FastAPI',
+      'Celery',
+      'REST APIs',
+      'GraphQL',
+      'WebSockets',
+      'PostgreSQL',
+      'MongoDB',
+      'Redis',
+      'SQLAlchemy',
+    ],
+  },
+  {
+    name: 'FRONTEND',
+    items: [
+      'React',
+      'Next.js',
+      'TypeScript',
+      'JavaScript',
+      'Redux',
+      'Redux Saga',
+      'Tailwind CSS',
+      'Bootstrap',
+      'GSAP',
+      'Three.js',
+      'HTML5',
+      'CSS3',
+    ],
+  },
+  {
+    name: 'AI / ML',
+    items: [
+      'LangChain',
+      'OpenAI SDK',
+      'Anthropic SDK',
+      'RAG',
+      'Vector DBs',
+      'Pinecone',
+      'pgvector',
+      'Embeddings',
+      'Fine-Tuning',
+      'Agents',
+      'Prompt Engineering',
+      'NLP',
+    ],
+  },
+  {
+    name: 'CLOUD / DEVOPS',
+    items: [
+      'AWS',
+      'Azure',
+      'Docker',
+      'Kubernetes',
+      'CI/CD',
+      'GitHub Actions',
+      'Terraform',
+      'Nginx',
+      'Linux',
+      'Serverless',
+    ],
+  },
+];
